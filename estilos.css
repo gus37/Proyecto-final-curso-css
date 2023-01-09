@@ -1,0 +1,105 @@
+body{
+    background-color: beige;
+    color: brown;
+    font-size: 13PX;
+    font-family: calibri;
+    margin: 0px;
+}
+
+#cabecera{
+    background-color: blue;
+}
+
+#cabecera h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav{
+    background-color: darkturquoise;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-size: 28px;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+nav ul li a:hover{
+    background-color: cyan;
+    color: black;
+}
+
+#cont-img{
+    background-image: url(img/denali-alaska-500px-mountains-trees-hd-wallpaper-preview.jpg);
+    height: 280px;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+#cont-img .imagen h1{
+    color: white;
+    text-align: justify;
+    font-size: 25px;
+    padding-top: 15px;
+    margin: 0px;
+}
+
+.contenedor{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    overflow: hidden;
+}
+
+#cont-principal{
+    float: left;
+    width: 70%;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+
+#barra-lateral{
+    float: right;
+    width: 30%;
+    background-color: dodgerblue;
+    color: antiquewhite;
+    padding: 5px 20px;
+    box-sizing: border-box; 
+}
+
+#part-inf{
+   background-color: darkblue;
+   font-size: 18px;
+   color: white; 
+   padding: 5px;
+   margin-top: 50px;
+   text-align: center;
+}
+
+@media(max-width:650px) {
+    #cont-principal{
+        width: 100%;
+        float: none;
+    }
+    #barra-lateral{
+        width: 100%;
+        float: none;
+    }
+}
